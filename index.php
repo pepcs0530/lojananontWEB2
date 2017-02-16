@@ -14,7 +14,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-        
+
         <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <link rel="icon" href="images/logo.png" type="image/x-icon">
     </head>
@@ -100,7 +100,9 @@ Licence URI: http://www.os-templates.com/template-terms
         <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/bg.gif');">
             <div id="pageintro" class="hoc clear"> 
                 <!-- ################################################################################################ -->
-                <article>
+                <article style="
+                         text-shadow: 1px 1px black;
+                         ">
                     <p>ยินดีต้อนรับ</p>
                     <h3 class="heading">บ้านโลจนานนท์ โฮมสเตย์</h3>
                     <p>มีความยินดีเป็นอย่างยิ่งที่ได้ให้บริการที่พักอันแสนจะอบอุ่นภายใต้บรรยากาศที่เงียบสงบและเป็นส่วนตัว ณ จังหวัดประจวบคีรีขันธ์ อำเภอปราณบุรี  เรามีเมนูสุดพิเศษไว้รองรับแขกของเรามากมายไม่ว่าจะเป็น เมนูอาหารทะเลสดใหม่ทุกวัน บาร์บิคิว และเมนูอาหารไทยต่างๆ ห่างจากกรุงเทพ 2 ชั่วโมง ที่พักติดทะเล บริการเป็นแบบเหมา ทริปท่องเที่ยว (เดินทางเอง).</p>
