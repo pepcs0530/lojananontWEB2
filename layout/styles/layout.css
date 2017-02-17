@@ -248,7 +248,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#771E44;}
 .row0{border-color:#771E44;}
 .row1{color:#8F8F8F; background-color:#000000;}
 .row2{color:#4A4A4A; background-color:#FEFEFE;}
-.row3{color:#4A4A4A; background-color:#F2F2F2;}
+.row3{color:#4A4A4A; /*background-color:#F2F2F2;*/ background-image:url("../../images/demo/backgrounds/main-web.gif") }
 .row4, .row4 a{color:#CBCBCB;}
 .row5, .row5 a{color:#CBCBCB; background-color:#000000;}
 

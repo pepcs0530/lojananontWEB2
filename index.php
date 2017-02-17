@@ -30,6 +30,7 @@ Licence URI: http://www.os-templates.com/template-terms
             <header id="header" class="hoc clear"> 
                 <!-- ################################################################################################ -->
                 <div id="logo" class="fl_left">
+                    <img src="images/logo.png" style="width: 150px; height: 80px;"/>
                     <h1><a href="index.php">บ้านโลจนานนท์ โฮมสเตย์</a></h1>
                     <p>103/1 หมู่ 5 ตำบลสามร้อยยอด อำเภอสามร้อยยอด
                         อำเภอปราณบุรี จังหวัดประจวบคีรีขันธ์</p>
