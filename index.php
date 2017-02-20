@@ -63,21 +63,8 @@ Licence URI: http://www.os-templates.com/template-terms
                     <li><a class="drop" href="pages/packages.html">แพ็คเกจทัวส์</a>
                         <ul>
                             <li><a href="pages/p_package1.html">บ้านพัก</a></li>
-                            <li><a href="pages/p_package2.html">2วัน1คืน #1</a></li>
-                            <li><a href="pages/p_package3.html">2วัน1คืน #2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">แหล่งท่องเที่ยว</a>
-                        <ul>
-                            <li><a href="#">Level 2</a></li>
-                            <li><a class="drop" href="#">Level 2 + Drop</a>
-                                <ul>
-                                    <li><a href="#">Level 3</a></li>
-                                    <li><a href="#">Level 3</a></li>
-                                    <li><a href="#">Level 3</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Level 2</a></li>
+                            <li><a href="pages/p_package2.html">ตกหมึก</a></li>
+                            <li><a href="pages/p_package3.html">ถ้ำพยานคร</a></li>
                         </ul>
                     </li>
                     <li><a class="drop" href="#">แกลอรี่</a>
