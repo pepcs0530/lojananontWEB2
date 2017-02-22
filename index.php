@@ -60,7 +60,7 @@ Licence URI: http://www.os-templates.com/template-terms
                             <li><a href="pages/a_ridebicycle.html">ปั่นจักรยานชิวๆริมทะเล​</a></li>
                         </ul>
                     </li>
-                    <li><a class="drop" href="pages/packages.html">แพ็คเกจทัวส์</a>
+                    <li><a class="drop" href="pages/packages.html">แพ็คเกจทัวร์</a>
                         <ul>
                             <li><a href="pages/p_package1.html">บ้านพัก</a></li>
                             <li><a href="pages/p_package2.html">ตกหมึก</a></li>
@@ -69,6 +69,7 @@ Licence URI: http://www.os-templates.com/template-terms
                     </li>
                     <li><a class="drop" href="#">แกลอรี่</a>
                         <ul>
+                            <li><a href="#">บ้านพัก</a></li>
                             <li><a href="pages/g_beach.html">หาดหน้าบ้าน</a></li>
                             <li><a href="pages/g_inhouse.html">ภายในบ้าน</a></li>
                             <li><a href="pages/g_phaya-cave.html">ถ้ำพยานคร</a></li>
