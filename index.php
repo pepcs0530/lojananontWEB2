@@ -54,7 +54,7 @@ Licence URI: http://www.os-templates.com/template-terms
                     <li><a class="drop" href="pages/activities.html">กิจกรรม</a>
                         <ul>
                             <li><a href="pages/a_concert.html">80-90 charity concert</a></li>
-                            <li><a href="pages/a_phayacave.html">ชมที่นั่งกลางธรรมชาติ ณ ถ้ำพยานคร</a></li>
+                            <li><a href="pages/a_phayacave.html">ชมที่นั่งกลางธรรมชาติ ณ ถ้ำพระยานคร</a></li>
                             <li><a href="pages/a_fourisland.html">นั่งเรือชม4เกาะ</a></li>
                             <li><a href="pages/a_seaside.html">บรรยากาศหาดหน้าบ้าน</a></li>
                             <li><a href="pages/a_ridebicycle.html">ปั่นจักรยานชิวๆริมทะเล​</a></li>
@@ -64,15 +64,15 @@ Licence URI: http://www.os-templates.com/template-terms
                         <ul>
                             <li><a href="pages/p_package1.html">บ้านพัก</a></li>
                             <li><a href="pages/p_package2.html">ตกหมึก</a></li>
-                            <li><a href="pages/p_package3.html">ถ้ำพยานคร</a></li>
+                            <li><a href="pages/p_package3.html">ถ้ำพระยานคร</a></li>
                         </ul>
                     </li>
                     <li><a class="drop" href="#">แกลอรี่</a>
                         <ul>
-                            <li><a href="#">บ้านพัก</a></li>
+                            <li><a href="#">บ้านพัก / ห้องพัก</a></li>
                             <li><a href="pages/g_beach.html">หาดหน้าบ้าน</a></li>
                             <li><a href="pages/g_inhouse.html">ภายในบ้าน</a></li>
-                            <li><a href="pages/g_phaya-cave.html">ถ้ำพยานคร</a></li>
+                            <li><a href="pages/g_phaya-cave.html">ถ้ำพระยานคร</a></li>
                         </ul>
                     </li>
                     <li><a href="pages/contact.html">ติดต่อเรา</a></li>
