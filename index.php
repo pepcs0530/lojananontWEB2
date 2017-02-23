@@ -96,7 +96,7 @@ Licence URI: http://www.os-templates.com/template-terms
                     <footer>
                         <ul class="nospace inline pushright">
                             <li><a class="btn inverse" href="pages/activities.html">กิจกรรม</a></li>
-                            <li><a class="btn inverse" href="pages/packages.html">จองแพ็คเกจทัวส์</a></li>
+                            <li><a class="btn inverse" href="pages/packages.html">จองแพ็คเกจทัวร์</a></li>
                         </ul>
                     </footer>
                 </article>
