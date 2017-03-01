@@ -15,8 +15,13 @@ Licence URI: http://www.os-templates.com/template-terms
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-        <link rel="icon" href="images/logo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
+        <link rel="icon" href="images/logo2.png" type="image/x-icon">
+
+        <!-- JAVASCRIPTS -->
+        <script src="layout/scripts/jquery.min.js" type="text/javascript"></script>
+        <script src="layout/scripts/jssor.slider-22.2.10.mini.js"></script>
+
     </head>
     <body id="top">
         <!-- ################################################################################################ -->
@@ -40,14 +45,43 @@ Licence URI: http://www.os-templates.com/template-terms
                         <li><a href="https://www.facebook.com/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%88%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C-%E0%B9%82%E0%B8%AE%E0%B8%A1%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%A2%E0%B9%8C-1651416238489544/" target="_blank"><img src="images/demo/facebook.ico" style="width: 50px; height: 50px; border: none;"><br><strong> Facebook:</strong><br>
                                 บ้านโลจนานนท์ โฮมสเตย์</a></li>
                         <li><a href="http://line.me/ti/p/~motoy130" target="_blank"><img src="images/demo/line.ico" style="width: 50px; height: 50px; border: none;"><br><strong> Line:</strong><br>
-                            motoy130</a></li>
+                                motoy130</a></li>
                         <li><a href="http://instagram.com/baanlojananont_homestay" target="_blank"><img src="images/demo/instagram.ico" style="width: 50px; height: 50px; border: none;"><br><strong> Instagram:</strong><br>
-                            baanlojananont_homestay</a></li>
+                                baanlojananont_homestay</a></li>
                     </ul>
                 </div>
                 <!-- ################################################################################################ -->
             </header>
-            <nav id="mainav" class="hoc clear"> 
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        
+
+        <style>
+            [data-slides] {
+                background-image: url(images/demo/backgrounds/bg1.JPG); /* Default image. */
+                background-repeat: no-repeat;
+                background-position: center top;
+                background-size: cover;
+                transition: background-image 1s linear;
+            }
+
+            /* Use additional CSS to control the `height` of `[data-slides]`, like so: */
+
+            .test { /*height: 720px;*/ }
+            @media all and (min-width: 48em) {
+                .test { /*height: 720px;*/ }
+            }
+        </style>
+        <div
+            class="test"
+            data-slides='[
+            "images/demo/backgrounds/bg1.JPG",
+            "images/demo/backgrounds/bg2.JPG",
+            "images/demo/backgrounds/bg3.JPG"
+            ]'
+            > <nav id="mainav" class="hoc clear"> 
                 <!-- ################################################################################################ -->
                 <ul class="clear">
                     <li class="active"><a href="index.php">หน้าแรก</a></li>
@@ -80,15 +114,11 @@ Licence URI: http://www.os-templates.com/template-terms
                 </ul>
                 <!-- ################################################################################################ -->
             </nav>
-        </div>
-        <!-- ################################################################################################ -->
-        <!-- ################################################################################################ -->
-        <!-- ################################################################################################ -->
-        <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/bg.gif');">
             <div id="pageintro" class="hoc clear"> 
                 <!-- ################################################################################################ -->
                 <article style="
                          text-shadow: 1px 1px black;
+                         color: white;
                          ">
                     <p>ยินดีต้อนรับ</p>
                     <h3 class="heading">บ้านโลจนานนท์ โฮมสเตย์</h3>
@@ -103,6 +133,30 @@ Licence URI: http://www.os-templates.com/template-terms
                 <!-- ################################################################################################ -->
             </div>
         </div>
+        <!-- /.primary -->
+        <script>
+            /*! slides | https://gist.github.com/mhulse/66bcbb7099bb4beae530 */
+            (function ($) {
+
+                'use strict';
+
+                var $slides = $('[data-slides]');
+                var images = $slides.data('slides');
+                var count = images.length;
+                var slideshow = function () {
+                    $slides
+                            .css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")')
+                            .show(0, function () {
+                                setTimeout(slideshow, 3000);
+                            });
+                };
+
+                slideshow();
+
+            }(jQuery));
+        </script>
+
+
         <!-- ################################################################################################ -->
         <!-- ################################################################################################ -->
         <!-- ################################################################################################ -->
@@ -139,7 +193,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <!-- ################################################################################################ -->
         <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
         <!-- JAVASCRIPTS -->
-        <script src="layout/scripts/jquery.min.js"></script>
+
         <script src="layout/scripts/jquery.backtotop.js"></script>
         <script src="layout/scripts/jquery.mobilemenu.js"></script>
     </body>
